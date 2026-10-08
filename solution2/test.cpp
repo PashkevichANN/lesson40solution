@@ -1,8 +1,8 @@
 #include "test.h"
 
-void test(int N, int M, string expected, string test_name) {
+void test(int n, int m, string expected, string test_name) {
 
-	    string actual = write_numbers(N, M);
+	string actual = write_numbers(n, m);
 		string msg = test_name + " --> ";
 		msg += actual == expected ? "PASS" : "FAIL";
 		cout << msg << endl;
