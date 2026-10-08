@@ -2,4 +2,4 @@
 #include <string>
 using namespace std;
 
-string write_numbers(int n, int m);
+string get_number_order(int n, int m);

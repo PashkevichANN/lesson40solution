@@ -1,6 +1,6 @@
 #include "logic.h"
 
-string write_numbers(int n, int m) {
+string  (int n, int m) {
 	string result = "";
 
 	if (n == m) {
@@ -11,5 +11,5 @@ string write_numbers(int n, int m) {
 		bool is_n_bigger = true;
 	}
 
-
+	return result;
 }
