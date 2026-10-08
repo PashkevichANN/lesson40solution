@@ -1,7 +1,7 @@
 #include "test.h"
 
 void print(string name, long long number, bool expected) {
-    bool actual = is_digits_count_even(number);
+    bool actual = is_digit_count_even(number);
 
     cout << name << (expected == actual ? " \u0002 PASS (green)" : " \u0001 FAIL (red)")
         << ": with number = " << number << " result is " << actual << endl;
